@@ -3,7 +3,7 @@ import "./Todo.css";
 import { v4 as uuidv4 } from 'uuid';
 
 export default function TodoList(){
-    let [todo,setTodo]=useState([{task:"sample",id:uuidv4(),isDone:false}]);
+    let [todo,setTodo]=useState([{task:"eat",id:uuidv4(),isDone:false}]);
     let [newTodo,setNewTodo]=useState("");
     let [error,setError]=useState("");
 
